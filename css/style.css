@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/***Menu bar css start***/
+.menu {
+    margin: auto;
+    padding: 10px 0px;
+    width: 80%;
+}
+.menu ul {
+    list-style: none;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.menu ul li a {
+    font-family: Roboto;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+/***Section default css***/
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden;
+}
+
+/***Hero section css***/
+#hero-section{
+    padding-top: 50px;
+}
+.left-content{
+    width: 40%;
+    float: left;
+}
+.content-title h2{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    line-height: 80px;
+    margin-bottom: 20px;
+}
+#hero-content {
+    margin-top: 50px;
+}
+span.text-highlight {
+    color: #0089ff;
+}
+.description p{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: normal;
+    line-height: 24px;
+    color: #363958;
+}
+.button{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.button a{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(0deg, #0089ff -28.33%, #363958 95.83%);
+    border-radius: 6px;
+}
+.right-content{
+    width: 40%;
+    float: right;
+}
+.right-content img{
+    width: 100%;
+    float: right;
+}
+/***About section css***/
+#about-section{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.left-content img{
+    width: 100%;
+}
+.title h2{
+    font-size: 48px;
+    font-family: 'Bebas Neue', cursive;
+    color: #363958;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+#about-content{
+    margin-top: 100px;
+}
+/***Project section css***/
+#project-section{
+    background: #F8F9FC;
+    padding: 80px 0px;
+}
+#project-title{
+    text-align: center;
+}
+.projects {
+    padding: 40px 0;
+}
+.project-items{
+    width: 28%;
+    background: #FFFFFF;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin: 0 10px;
+    padding: 13px;
+    display: inline-block;
+}
+.project-image img{
+    width: 100%;
+}
+.project-title h3{
+    font-size: 20px;
+    font-family: Roboto;
+    margin: 10px 0px;
+    line-height: 28px;
+    color: #363958;
+}
+.project-desc p{
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+/***Features section css***/
+#feature-section{
+    padding: 80px 0px;
+}
+#feature-title{
+    text-align: center;
+}
+.feature {
+    padding-top: 50px;
+}
+.feature-items{
+    width: 28%;
+    background: #F8F9FC;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+    margin: 0 15px;
+    padding: 10px;
+    display: inline-block;
+}
+.feature-images {
+    text-align: center;
+}
+.feature-images img{
+    width: 50%;
+}
+.feature-title h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: Roboto;
+    margin: 10px 0px;
+    line-height: 28px;
+    color: #363958;
+}
+.feature-desc p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+.feature-btn{
+    margin: 30px;
+    text-align: center;
+}
+.feature-btn a{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(0deg, #0089ff -28.33%, #363958 95.83%);
+    border-radius: 6px;
+}
+/***community section css***/
+#testimonial-section{
+    padding: 50px 0px;
+}
+#testimonial-title{
+    text-align: center;
+}
+/***Footer section css***/
+#footer-area{
+    padding: 50px 0px;
+}
+.inquiry{
+    width: 70%;
+    margin: auto;
+    background-image: url("../images/inquiry.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 225px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.content-left{
+    width: 50%;
+    float: left;
+}
+.inquiry-text h2{
+    font-size: 80px;
+    font-family: 'Bebas Neue', cursive;
+    color: #ffffff;
+    line-height: 80px;
+    margin: 18% 10%;
+}
+.content-right{
+    width: 50%;
+    float: right;
+}
+.chat-btn {
+    text-align: end;
+    margin: 23% 10%;
+}
+.chat-btn a{
+    font-size: 16px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 15px 40px;
+    color: white;
+    text-decoration: none;
+    background: linear-gradient(0deg, #0089ff -28.33%, #363958 95.83%);
+    border-radius: 6px;
+}
+.social-link {
+    padding-top: 62px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.title h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: normal;
+    color: #696871;
+    margin-bottom: 20px;
+}
+.gmail h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.gmail h2 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #363958;
+    font-weight: normal;
+}
+
+span#icon img {
+    width: 5%;
+    margin: 5px;
+}
+/***client section css***/
+#testimonial-section{
+    padding: 80px 0px;
+}
+.testimonial-image img {
+    width: 100%;
+}
+
+.testimonial-items {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    margin: 45px 5px;
+    padding: 11px;
+    box-shadow: 0px 7px 20px rgba(0, 0, 0, 0.07);
+}
+.client-name h2{
+    font-size: 28px;
+    text-align: center;
+    font-family: Roboto;
+    margin: 10px 0px;
+    line-height: 28px;
+    color: #363958;
+}
+.desciption p{
+    font-size: 16px;
+    text-align: center;
+    font-family: Roboto;
+    line-height: 28px;
+    color: #6C6C6C;
+}
